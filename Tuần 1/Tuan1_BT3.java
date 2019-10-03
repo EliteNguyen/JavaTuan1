@@ -12,11 +12,15 @@ class Bai3 {
 		System.out.println("Nhap n = ");
 		n = x.nextInt();
 		a = new int[n];
+
+		//Nhập mảng 
 		for(int i = 0 ; i < n ; i++) 
 		{
 			System.out.println("Nhap phan tu a[" + i + "]=");
 			a[i]= x.nextInt();
 		}
+
+		//Tìm max
 		int max = a[0];
 		for(int i = 1 ; i < n ; i++)
 		{
