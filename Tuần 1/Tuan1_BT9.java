@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 class Bai9 {
 	public static void main (String[] args) {
-		System.out.println("100 so dau tin trong day Fibonacci la:");
+		System.out.println("100 so dau tien trong day Fibonacci la:");
 		for(int i  = 1 ; i < 90; i++)
 			System.out.print(fibonacci(i) + "\t");
 	
@@ -27,4 +27,4 @@ class Bai9 {
 		}
 		return fn;
 	}
-	}
+}
