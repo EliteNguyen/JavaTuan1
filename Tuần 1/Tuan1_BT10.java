@@ -37,7 +37,7 @@ class Bai10 {
 			for(int j = 0 ; j < c ; j++) {
 				System.out.print("\t" + a[i][j]);	
 			}	
-				System.out.println("");
+				System.out.println("\n");
 		}
 		
 		//Tinh tong hang k cac phan tu trong mang
@@ -45,8 +45,8 @@ class Bai10 {
 		System.out.print("Nhap hang k:");
 		k = x.nextInt();
 		double S = 0;
-		for(int i = 0 ; i < c ; i++) {
-				S = S + a[k-1][i];	
+		for(int j = 0 ; j < c ; j++) {
+				S = S + a[k-1][j];	
 			}
 	
 		System.out.println("TONG CAC HANG THU " + k + " TRONG MANG LA:" + S);
