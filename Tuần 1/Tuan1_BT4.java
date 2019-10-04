@@ -37,7 +37,7 @@ class Bai4 {
 			for(int j = 0 ; j < c ; j++) {
 				System.out.print("\t" + a[i][j]);	
 			}	
-				System.out.println("");
+				System.out.println("\n");
 		}
 		
 		//Tinh tong cac phan tu trong mang
